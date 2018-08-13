@@ -1,5 +1,7 @@
 # Python 变量类型
 
+> 示例：example/day02
+
 ## 变量赋值
 
 ```py
