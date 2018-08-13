@@ -26,6 +26,7 @@
 - [包管理工具](./pip.md)
 - [基础语法](./basic-syntax.md)
 - [变量类型](./variable-types.md)
+- [运算符](./operators.md)
 
 ## Reference
 
