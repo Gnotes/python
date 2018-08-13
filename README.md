@@ -27,6 +27,7 @@
 - [基础语法](./basic-syntax.md)
 - [变量类型](./variable-types.md)
 - [运算符](./operators.md)
+- [if判断](./if-statement.md)
 
 ## Reference
 
