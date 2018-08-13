@@ -20,6 +20,8 @@
 9. `GUI编程`：Python支持GUI可以创建和移植到许多系统调用。  
 10. `可嵌入`：你可以将Python嵌入到C/C++程序，让你的程序的用户获得"脚本化"的能力  
 
+> 注： 我使用的是 `Python3` 的版本运行示例
+
 ## Contents
 
 - [环境搭建](./environmental-construction.md)
@@ -28,6 +30,7 @@
 - [变量类型](./variable-types.md)
 - [运算符](./operators.md)
 - [if判断](./if-statement.md)
+- [循环](./loops.md)
 
 ## Reference
 
