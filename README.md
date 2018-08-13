@@ -25,6 +25,7 @@
 - [环境搭建](./environmental-construction.md)
 - [包管理工具](./pip.md)
 - [基础语法](./basic-syntax.md)
+- [变量类型](./variable-types.md)
 
 ## Reference
 
