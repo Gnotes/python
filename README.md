@@ -32,6 +32,8 @@
 - [运算符](./operators.md)
 - [if判断](./if-statement.md)
 - [循环](./loops.md)
+- [数值](./numbers.md)
+- [字符串](./strings.md)
 
 ## Reference
 
