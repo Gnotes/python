@@ -30,7 +30,7 @@ else:
 print(r'\n')
 print(R'\n')
 
-print('str.format函数格式化：')
+print('str.format函数格式化：')
 print("{} {}".format("hello", "world"))        # 不设置指定位置，按默认顺序
 print("{0} {1}".format("hello", "world"))      # 设置指定位置
 print("{1} {0} {1}".format("hello", "world"))  # 设置指定位置

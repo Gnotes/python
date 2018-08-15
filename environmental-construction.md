@@ -37,7 +37,7 @@ such as "spam", type "modules spam".
 
 ## 注意
 
-> 我尝试去删除2.7版本的Python 但是没有删除成功！，下边 `Rootless` 操作没有尝试(担心出问题啊😅)。
+> 我尝试去删除2.7版本的Python 但是没有删除成功！，下边 `Rootless` 操作没有尝试(担心出问题啊😅)。
 
 由于Mac下的 `python2.7` 默认是安装在 `/System/Library/Frameworks/Python.framework` 目录下的。但是Mac有个 `Rootless` 机制，默认不允许直接在/System下作修改。所以要先关闭Rootless机制。
 
@@ -58,9 +58,9 @@ such as "spam", type "modules spam".
 1. [官网下载](https://www.python.org/downloads/mac-osx/) 安装包  
     > 当前Mac最新版是 `3.7`  
 2. 一路默认安装就好，安装完成后会在 `/Library/Frameworks/Python.framework` 目录下  
-3. 安装完成后在控制台测试  
+3. 安装完成后在控制台测试  
 
-**注意 ⚠️** 我们输入的命令是 `python3` 而不是 `python`，这是因为我们保留了原有的 python 版本
+**注意 ⚠️** 我们输入的命令是 `python3` 而不是 `python`，这是因为我们保留了原有的 python 版本
 
 ```bash
 $ python3

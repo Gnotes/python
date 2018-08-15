@@ -35,7 +35,7 @@ print(tup3)
 
 # 删除元组
 
-元组的删除和列表一致，使用 `del`
+元组的删除和列表一致，使用 `del`
 
 ```py
 tup = ('physics', 'chemistry', 1997, 2000)
