@@ -34,6 +34,9 @@
 - [循环](./loops.md)
 - [数值](./numbers.md)
 - [字符串](./strings.md)
+- [列表](./lists.md)
+- [元组](./tuples.md)
+- [字典](./dictionary.md)
 
 ## Reference
 
