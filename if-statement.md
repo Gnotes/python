@@ -25,3 +25,9 @@ if ( var == 100 ) : print("变量 var 的值为100")
  
 print("Good bye!")
 ```
+
+> 注意 ⚠️ ：在Python中没有 `switch – case` 语句
+
+## 参考
+
+- [菜鸟 - 条件控制](http://www.runoob.com/python3/python3-conditional-statements.html)

@@ -228,3 +228,23 @@ else :
 > Python 执行的解析器
 
 - [Python解释器](http://www.runoob.com/python3/python3-interpreter.html)
+
+
+## end 关键字
+
+关键字 `end` 可以用于将结果 `输出到同一行`，或者在 输出的 `末尾` 添加不同的 `字符` ，实例如下
+
+```py
+#!/usr/bin/python3
+
+# Fibonacci series: 斐波纳契数列
+# 两个元素的总和确定了下一个数
+a, b = 0, 1
+while b < 1000:
+    print(b, end=',')
+    a, b = b, a+b
+
+# 输出结果
+
+1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,
+```
