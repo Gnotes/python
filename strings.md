@@ -153,3 +153,7 @@ print("{} 对应的位置是 {{0}}".format("runoob"))
 
 runoob 对应的位置是 {0}
 ```
+
+## 参考
+
+- [菜鸟 - Python3 字符串](http://www.runoob.com/python3/python3-string.html)

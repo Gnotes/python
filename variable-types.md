@@ -29,13 +29,17 @@ print(a, b, c, d)
 
 ## 标准数据类型
 
-Python有五个标准的数据类型
+Python有六个标准的数据类型
 
 - `Numbers`（数字）
 - `String`（字符串）
 - `List`（列表）：可变数组
 - `Tuple`（元组）：不可变数组
 - `Dictionary`（字典）：Map
+- `Set`（集合）
+
+> 不可变数据（3 个）：Number（数字）、String（字符串）、Tuple（元组）  
+> 可变数据（3 个）：List（列表）、Dictionary（字典）、Set（集合）  
 
 ## Python数字
 
@@ -63,6 +67,52 @@ del var_a, var_b
 2. long（长整型[也可以代表八进制和十六进制]）
 3. float（浮点型）
 4. complex（复数）
+
+> 注意：在Python 3里，只有一种整数类型 int，表示为长整型，没有 python2 中的 Long
+
+内置的 `type()` 函数可以用来查询变量所指的对象类型
+
+
+```py
+a, b, c, d = 20, 5.5, True, 4+3j
+
+print(type(a), type(b), type(c), type(d))
+
+# 输出结果
+
+<class 'int'> <class 'float'> <class 'bool'> <class 'complex'>
+```
+
+此外还可以用 `isinstance` 来判断
+
+```py
+a = 111
+isinstance(a, int)
+
+# 输出结果
+
+True
+```
+
+`isinstance` 和 `type` 的区别在于：
+
+- type()不会认为子类是一种父类类型
+- isinstance()会认为子类是一种父类类型
+
+```py
+class A:
+    pass
+
+class B(A):
+    pass
+
+isinstance(A(), A)    # returns True
+type(A()) == A        # returns True
+isinstance(B(), A)    # returns True
+type(B()) == A        # returns False
+```
+
+> 注意：在 `Python2` 中是`没有布尔型的`，它用数字 `0` 表示 False，用 `1` 表示 True。到 `Python3 中`，把 `True` 和 `False` 定义成关键字了，但它们的值还是 `1` 和 `0`，它们 `可以和数字相加`
 
 ## Python字符串
 
@@ -208,6 +258,51 @@ print(tinydict.keys())      # 输出所有键
 print(tinydict.values())    # 输出所有值
 ```
 
+## Set（集合）
+
+> 集合（set）是一个`无序不重复元素`的序列，可以使用大括号 `{ }` 或者 `set()` 函数创建集合  
+
+> 注意：创建一个`空集合`必须用 `set()` 而不是 `{ }`，因为 `{ }` 是用来创建一个`空字典`
+
+基本语法
+
+```py
+parame = {value01,value02,...}
+
+# 或者
+
+set(value)
+```
+
+示例：
+
+```py
+student = {'Tom', 'Jim', 'Mary', 'Tom', 'Jack', 'Rose'}
+
+print(student)   # 输出集合，重复的元素被自动去掉
+
+# 成员测试
+if 'Rose' in student:
+    print('Rose 在集合中')
+else:
+    print('Rose 不在集合中')
+
+
+# set可以进行集合运算
+a = set('abracadabra')
+b = set('alacazam')
+
+print(a)
+
+print(a - b)     # a和b的差集
+
+print(a | b)     # a和b的并集
+
+print(a & b)     # a和b的交集
+
+print(a ^ b)     # a和b中不同时存在的元素
+```
+
 ## Python数据类型转换
 
 > 数据类型的转换，你只需要将数据类型作为函数名即可
@@ -234,4 +329,5 @@ print(tinydict.values())    # 输出所有值
 
 ## 参考
 
-- [菜鸟 - Python 变量类型](http://www.runoob.com/python/python-variable-types.html)
+- [菜鸟 - Python2 变量类型](http://www.runoob.com/python/python-variable-types.html)
+- [菜鸟 - Python3 数据类型](http://www.runoob.com/python3/python3-data-type.html)
