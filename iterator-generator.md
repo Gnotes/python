@@ -44,3 +44,7 @@ while True:
     except StopIteration:
         sys.exit()
 ```
+
+## 参考
+
+- [菜鸟 - 迭代器与生成器](http://www.runoob.com/python3/python3-iterator-generator.html)
