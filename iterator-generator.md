@@ -40,7 +40,7 @@ f = fibonacci(10)  # f 是一个迭代器，由生成器返回生成，只有在
 
 while True:
     try:
-        print (next(f), end=" ")
+        print (next(f), end=" ")
     except StopIteration:
         sys.exit()
 ```

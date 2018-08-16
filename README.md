@@ -32,7 +32,7 @@
 - [运算符](./operators.md)
 - [if判断](./if-statement.md)
 - [循环](./loops.md)
-- [迭代器与生成器](./iterator-generator.md.md)
+- [迭代器与生成器](./iterator-generator.md)
 - [数值](./numbers.md)
 - [字符串](./strings.md)
 - [列表](./lists.md)
