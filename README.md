@@ -48,6 +48,7 @@
 - [OS](./os.md)
 - [错误与异常](./execptions.md) …
 - [内置函数](./built-in-functions.md)
+- [类](./class.md)
 
 ## Reference
 
