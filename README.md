@@ -41,8 +41,12 @@
 - [集合](./set.md)
 - [日期和时间](./date-time.md)
 - [函数](./function.md)
-- [推导式](./comprehensions.md) ⚠️
+- [推导式](./comprehensions.md) …
 - [模块](./modules.md)
+- [I/O](./io.md) …
+- [File](./file.md)
+- [OS](./os.md)
+- [错误与异常](./execptions.md) …
 
 ## Reference
 
