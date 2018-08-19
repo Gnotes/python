@@ -50,6 +50,7 @@
 - [内置函数](./built-in-functions.md)
 - [类](./class.md)
 - [示例](http://www.runoob.com/python3/python3-examples.html)
+- [正则表达式](http://www.runoob.com/python/python-reg-expressions.html)
 
 ## Reference
 
