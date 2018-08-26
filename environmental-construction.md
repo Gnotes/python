@@ -70,6 +70,12 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
+### Brew 安装
+
+```bash
+brew install python3
+```
+
 ## 参考
 
 - [Mac下升级python2.7到python3.6](https://blog.csdn.net/xummgg/article/details/69053334)

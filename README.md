@@ -41,6 +41,8 @@
 - [集合](./set.md)
 - [日期和时间](./date-time.md)
 - [函数](./function.md)
+- [装饰器](./decorator.md) …
+- [偏函数](./partial-function.md) …
 - [推导式](./comprehensions.md) …
 - [模块](./modules.md)
 - [I/O](./io.md) …
@@ -49,6 +51,12 @@
 - [错误与异常](./execptions.md) …
 - [内置函数](./built-in-functions.md)
 - [类](./class.md)
+  - [类属性、实例属性](./class-instance-props.md)
+  - [__slots__](./slots.md)
+  - [@property](./@property.md)
+  - [定制类](./custom-class.md)
+  - [枚举](./enum.md)
+  - [元类](./meta-class.md)
 - [示例](http://www.runoob.com/python3/python3-examples.html)
 - [正则表达式](http://www.runoob.com/python/python-reg-expressions.html)
 
@@ -56,6 +64,7 @@
 
 - [Python2 菜鸟](http://www.runoob.com/python/python-tutorial.html)
 - [Python3 菜鸟](http://www.runoob.com/python3/python3-tutorial.html)
+- [Python3 廖雪峰](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 - [Python Official Website](https://www.python.org/)
 - [awesome-python 中文](https://github.com/jobbole/awesome-python-cn)
 - [awesome-python3-webapp](https://github.com/michaelliao/awesome-python3-webapp)
