@@ -57,8 +57,10 @@
   - [定制类](./custom-class.md) …
   - [枚举](./enum.md) …
   - [元类](./meta-class.md) …
+- [示例](http://www.runoob.com/python/python-100-examples.html)
 - [示例](http://www.runoob.com/python3/python3-examples.html)
 - [正则表达式](http://www.runoob.com/python/python-reg-expressions.html)
+- [调试](./debug.md)
 
 ## Reference
 
