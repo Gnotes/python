@@ -70,3 +70,4 @@
 - [Python Official Website](https://www.python.org/)
 - [awesome-python 中文](https://github.com/jobbole/awesome-python-cn)
 - [awesome-python3-webapp](https://github.com/michaelliao/awesome-python3-webapp)
+- [Python 入门教程](https://github.com/TwoWater/Python)
