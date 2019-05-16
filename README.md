@@ -60,14 +60,17 @@
 - [示例](http://www.runoob.com/python/python-100-examples.html)
 - [示例](http://www.runoob.com/python3/python3-examples.html)
 - [正则表达式](http://www.runoob.com/python/python-reg-expressions.html)
-- [调试](./debug.md)
+- [调试](./debug.md) …
 
 ## Reference
 
 - [Python2 菜鸟](http://www.runoob.com/python/python-tutorial.html)
 - [Python3 菜鸟](http://www.runoob.com/python3/python3-tutorial.html)
+- [Python 入门指南](http://www.pythondoc.com/pythontutorial3/index.html)
+- [free-programming-books Python中文](https://github.com/justjavac/free-programming-books-zh_CN#python)
 - [Python3 廖雪峰](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 - [Python Official Website](https://www.python.org/)
 - [awesome-python 中文](https://github.com/jobbole/awesome-python-cn)
 - [awesome-python3-webapp](https://github.com/michaelliao/awesome-python3-webapp)
 - [Python 入门教程](https://github.com/TwoWater/Python)
+- [Python 最佳实践指南](https://pythonguidecn.readthedocs.io/zh/latest/)
