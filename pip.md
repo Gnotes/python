@@ -4,6 +4,8 @@
 
 在Python中，安装第三方模块，是通过包管理工具pip完成的。 `Mac` 自带了Pip.
 
+> 注：pip 将安装在 python2 中，`pip3` 才会安装在 python3 中
+
 > 第三方库都会在Python官方的[pypi.python.org](pypi.python.org)网站注册
 
 ## 参考
