@@ -75,3 +75,4 @@
 - [awesome-python3-webapp](https://github.com/michaelliao/awesome-python3-webapp)
 - [Python 入门教程](https://github.com/TwoWater/Python)
 - [Python 最佳实践指南](https://pythonguidecn.readthedocs.io/zh/latest/)
+- [Python - 100天从新手到大师](https://github.com/jackfrued/Python-100-Days)
