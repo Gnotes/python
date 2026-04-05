@@ -1,6 +1,6 @@
 # Python
 
-- [官方语法文档](https://docs.python.org/zh-cn/3.14/reference/index.html)
+- [官方语法文档](https://docs.python.org/zh-cn/3.14/tutorial/index.html#tutorial-index)
 
 > Python是一种解释型、面向对象、动态数据类型的高级程序设计语言.
 
